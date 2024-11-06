@@ -92,6 +92,7 @@ class CustomerMembership:
         return discounted_price
 
 
+# testing
 cust1 = CustomerMembership("kai")
 print(f'username : {cust1.username}')
 cust1.show_benefit()
